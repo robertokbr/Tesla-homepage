@@ -13,7 +13,7 @@ body{
 }
 
 body, input, button {
-font-family: 'Roboto', serif;
+font-family: 'Montserrat', sans-serif;
 font-size: 16px;
 }
 
