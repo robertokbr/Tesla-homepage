@@ -29,6 +29,9 @@
     "prettier"
   ],
   "rules": {
+    "jsx-a11y/anchor-is-valid": "off",
+    "consistent-return":"off",
+    "@typescript-eslint/explicit-module-boundary-types":"off",
     "react/jsx-wrap-multilines":"off",
     "@typescript-eslint/ban-types":"off",
     "no-unused-expressions":"off",
