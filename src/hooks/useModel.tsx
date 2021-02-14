@@ -1,4 +1,10 @@
-import React, { createContext, ReactNode } from 'react';
+import React, {
+  createContext,
+  ReactNode,
+  useCallback,
+  useContext,
+  useEffect,
+} from 'react';
 
 export interface CarModel {
   modelName: string;
@@ -14,4 +20,22 @@ interface IModelsContext {
   getModelByName(modelName: string): CarModel | undefined;
 }
 
-export const ModelContext = createContext<IModelsContext>({} as IModelsContext);
+const ModelContext = createContext<IModelsContext>({} as IModelsContext);
+
+function useModel(modelName: string) {
+  const {
+    getModelByName,
+    registerModel,
+    wrapperRef,
+    unregisterModel,
+  } = useContext(ModelContext);
+
+  const getModel = useCallback(() => getModelByName(modelName), [
+    getModelByName,
+    modelName,
+  ]);
+
+  return { registerModel, getModel, wrapperRef };
+}
+
+export { ModelContext, useModel };
