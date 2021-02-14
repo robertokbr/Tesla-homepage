@@ -1,9 +1,5 @@
 <h1 align="center">
-    <!-- <img src="https://camo.githubusercontent.com/ab9f94b1f47bf05fbf0f99d65a802f638cb38f21/68747470733a2f2f692e696d6775722e636f6d2f613334616f30782e706e67" width="100px" /><br>
-    <br> -->
  Tesla UI clone
-</h1>
-
 <h4 align="center">
 Tesla Home page UI clone maded with React.JS
 </h4>
@@ -25,11 +21,11 @@ Tesla Home page UI clone maded with React.JS
     <img alt="Repository issues" src="https://img.shields.io/github/issues/robertokbr/Tesla-homepage.svg">
   </a>
 </p>
+</h1>
+<p align="center">
+    <image src="https://github.com/robertokbr/Tesla-homepage/blob/main/.github/Tesla.gif"/>
+</p>
 
-
- <!-- <img src="https://github.com/robertokbr/Tesla-homepage/blob/master/.Github/signin.png"/>
-  <img src="https://github.com/robertokbr/Tesla-homepage/blob/master/.Github/signout.png"/>
- <img src="https://github.com/robertokbr/Tesla-homepage/blob/master/.Github/portail.png"/> -->
 
 
 # 🚧 In progress
@@ -69,7 +65,7 @@ $ yarn start
 ---
 
 ### Project Motivations:
-- Learn how to handle the Framer-motion lib to build animations
+- Handle complex animations with Framer-motion and context-api
 
 
 Roberto Junior :wave: [Join me on Linkedin!](https://www.linkedin.com/in/robertojrcdc/)
