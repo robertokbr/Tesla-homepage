@@ -1,8 +1,9 @@
 import React, { useMemo } from 'react';
+
 import { car1, car2, car3, car4, car5, car6 } from '../../assets/images/images';
 import DefaultOverlayContent from '../../components/DefaultOverlayContent';
 import { ModelSection, ModelsWrapper } from '../../components/Model';
-
+import UniqueOverlay from '../../components/UniqueOverlay';
 import * as S from './styles';
 
 const Home: React.FC = () => {
@@ -22,15 +23,12 @@ const Home: React.FC = () => {
               key={page.title}
               background={page.background}
               modelName={page.title}
-              overlayNode={
-                <DefaultOverlayContent
-                  label={page.title}
-                  description="Order online for delivery"
-                />
-              }
+              overlayNode={<DefaultOverlayContent label={page.title} />}
             />
           ))}
         </S.ModelContainer>
+        <S.Spacer />
+        <UniqueOverlay />
       </ModelsWrapper>
     </S.Container>
   );
