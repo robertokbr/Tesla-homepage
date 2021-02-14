@@ -32,8 +32,6 @@ Tesla Home page UI clone maded with React.JS
 
 - [ReactJs with Typescript](https://reactjs.org) - A JavaScript library for building user interfaces
 - [Context-Api]()
-- [react-router-dom]()
-- [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and NodeJs
 - [Styled-components]()
 - [Framer-motion]()
 - [Eslint]()
